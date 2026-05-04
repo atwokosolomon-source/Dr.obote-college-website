@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DR OBOTE COLLEGE BOROBORO.contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+         <img src="pic.jpg" alt="" width="100">
+         DR OBOTE COLLEGE BOROBORO 
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="staff.html">Staff Profile</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Dr Obote College Boroboro</h1>
+      <p>Shaping young minds with excellence, values, Fear Not The Truth</p>
+      <a href="#admissions" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- contacts Section -->
+  <section id="contacts.html" class="programs"></section>
+
+    <div class="contact-container">
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <br>
+            <p><strong>📍 Address:</strong><br>
+            Soroti Road, Lira City<br>
+            Uganda</p><br>
+
+            <p><strong>📞 Phone:</strong><br>
+            +256 772011471<br>
+            +256 782581908</p><br>
+
+            <p><strong>✉️ Email:</strong><br>
+            info@drbotecollege.ac.ug</p><br>
+
+            <p><strong>🕒 Working Hours:</strong><br>
+            Monday - Friday: 8:00 AM - 5:00 PM</p>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9052759753745!2d32.92713867319581!3d2.189581158305202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1770afc52efe399d%3A0x89c046a4b0e62652!2sDr.%20Obote%20College%2C%20Boroboro!5e0!3m2!1sen!2sug!4v1777822271054!5m2!1sen!2sug" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Full Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="tel" placeholder="Phone Number">
+                <textarea rows="6" placeholder="Your Message / Inquiry" required></textarea>
+                
+                <button type="submit" class="btn" style="width:100%; margin-top:15px; padding:14px;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        // Form submission alert
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert("✅ Thank you! Your message has been received. We will get back to you soon.");
+            this.reset();
+        });
+    </script>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>Dr Obote College</h3>
+        <p>Lira, Uganda</p>
+        <p>Tel: +256 700 123 456</p>
+        <p>Email: info@drbotecollege.edu.ug</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="#">Our History</a>
+        <a href="#">Leadership Team</a>
+        <a href="#">Academic Calendar</a>
+        <a href="#">School Gallery</a>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 Dr Obote College. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DR OBOTE COLLEGE BOROBORO.faq</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+         <img src="pic.jpg" alt="" width="100">
+         DR OBOTE COLLEGE BOROBORO 
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="staff.html">Staff Profile</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Dr Obote College Boroboro</h1>
+      <p>Shaping young minds with excellence, values, Fear Not The Truth</p>
+      <a href="#admissions" class="btn">Apply Now</a>
+    </div>
+  </section>
+  <h2>FAQs</h2>
+ 
+    <div class="faq-container">
+        <div class="faq-item" id="faq1">
+            <div class="faq-question">
+                <span>What is the school fee structure?</span>
+            </div>
+            <div class="faq-answer">
+                <p>Our fees are competitive and inclusive of tuition, meals, and most learning materials. Detailed fee structure is available at the school office or upon request via email.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" id="faq2">
+            <div class="faq-question">
+                <span>When is the admission period?</span>
+            </div>
+            <div class="faq-answer">
+                <p>Admissions run throughout the year, but the main intake is in January and May. Early application is highly encouraged.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" id="faq3">
+            <div class="faq-question">
+                <span>Does the school offer boarding facilities?</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we offer both day and boarding options with high standard hostel facilities for boys and girls.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" id="faq4">
+            <div class="faq-question">
+                <span>What subjects do you offer at O'Level and A'Level?</span>
+            </div>
+            <div class="faq-answer">
+                <p>We offer a full range of subjects including Sciences, Arts, and Vocational subjects as per the Uganda National Curriculum.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" id="faq5">
+            <div class="faq-question">
+                <span>Are there scholarship opportunities?</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we offer merit-based and need-based scholarships to outstanding and deserving students every year.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" id="faq6">
+            <div class="faq-question">
+                <span>What co-curricular activities are available?</span>
+            </div>
+            <div class="faq-answer">
+                <p>We have Football, Netball, Music, Dance, Debate, Scouting, and many more clubs and sports.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        // FAQ Accordion Functionality
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>Dr Obote College</h3>
+        <p>Lira, Uganda</p>
+        <p>Tel: +256 700 123 456</p>
+        <p>Email: info@drbotecollege.edu.ug</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="#">Our History</a>
+        <a href="#">Leadership Team</a>
+        <a href="#">Academic Calendar</a>
+        <a href="#">School Gallery</a>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 Dr Obote College. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
